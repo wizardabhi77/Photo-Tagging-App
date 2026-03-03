@@ -1,0 +1,20 @@
+{
+  "name": "photo-tagging-app",
+  "version": "1.0.0",
+  "description": "a where's waldo like photo-tagging App with react for front end and express for backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wizardabhi77/Photo-Tagging-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wizardabhi77/Photo-Tagging-App/issues"
+  },
+  "homepage": "https://github.com/wizardabhi77/Photo-Tagging-App#readme"
+}
