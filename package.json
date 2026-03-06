@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "a where's waldo like photo-tagging App with react for front end and express for backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/wizardabhi77/Photo-Tagging-App/issues"
   },
-  "homepage": "https://github.com/wizardabhi77/Photo-Tagging-App#readme"
+  "homepage": "https://github.com/wizardabhi77/Photo-Tagging-App#readme",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.4.2",
+    "@prisma/client": "^7.4.2",
+    "@prisma/config": "^7.4.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pg": "^8.20.0",
+    "prisma": "^7.4.2"
+  }
 }
