@@ -27,7 +27,7 @@ function App() {
   async function handleSubmit(e){
     e.preventDefault();
 
-    await fetch(`http://localhost:3000/score`,{
+    await fetch(`http://https://photo-tagging-app-a5kl.onrender.com//score`,{
       method: "POST",
       headers: {
         "content-type": "application/json",

@@ -53,7 +53,7 @@ export function Level ({ source, stopTimer }) {
 
         setCharacter(value);
 
-        const res = await fetch(`http://localhost:3000/match/1?x=${point.x}&y=${point.y}&size=${100}&character=${value}`);
+        const res = await fetch(`http://https://photo-tagging-app-a5kl.onrender.com//match/1?x=${point.x}&y=${point.y}&size=${100}&character=${value}`);
 
         const match = await res.json();
 

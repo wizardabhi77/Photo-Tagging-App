@@ -7,7 +7,7 @@ function ScoreBoard () {
 
     useEffect(() => {
 
-        fetch("http://localhost:3000/scoreBoard")
+        fetch("http://https://photo-tagging-app-a5kl.onrender.com//scoreBoard")
         .then(res => res.json())
         .then(data => setScore(data));
     }, []);
